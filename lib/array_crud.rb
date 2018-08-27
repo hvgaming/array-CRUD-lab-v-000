@@ -3,23 +3,23 @@ def create_an_empty_array
 end
 
 def create_an_array
-  game=["wow", "I", "am", "Learning"]
+  array=["wow", "I", "am", "Learning"]
   
 end
 
-def add_element_to_end_of_array(game,element)
-  game=["wow", "I", "am", "really"]
-  game.push("arrays!")
+def add_element_to_end_of_array(array,element)
+  array=["wow", "I", "am", "really"]
+  array.push("arrays!")
 end
 
-def add_element_to_start_of_array(game, element)
-  game=["wow", "I", "am", "really","arrays!"]
-  game.unshift("wow")
+def add_element_to_start_of_array(array, element)
+  array=["wow", "I", "am", "really","arrays!"]
+  array.unshift("wow")
 end
 
-def remove_element_from_end_of_array(game)
-  game=["wow", "I", "am", "really","arrays!"]
-  arrays!_game = game.pop
+def remove_element_from_end_of_array(array)
+  array=["wow", "I", "am", "really","arrays!"]
+  
 end
 
 def remove_element_from_start_of_array(array)
