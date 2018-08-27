@@ -1,15 +1,15 @@
 def create_an_empty_array
-  array=[]
+  game=[]
 end
 
 def create_an_array
-  array=["wow", "I", "am", "really"]
+  game=["wow", "I", "am", "Learning"]
   
 end
 
-def add_element_to_end_of_array(array,"arrays!")
-  array=["wow", "I", "am", "really"]
-  array.unshift("arrays!")
+def add_element_to_end_of_array(game,"arrays!")
+  game=["wow", "I", "am", "really"]
+  game.unshift("arrays!")
 end
 
 def add_element_to_start_of_array(array, element)
