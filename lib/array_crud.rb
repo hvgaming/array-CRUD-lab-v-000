@@ -4,10 +4,12 @@ end
 
 def create_an_array
   array=["wow", "I", "am", "really"]
+  
 end
 
 def add_element_to_end_of_array(array,"arrays!")
-  array=["wow", "I", "am", "really"].unshift("arrays!")
+  array=["wow", "I", "am", "really"]
+  array.unshift("arrays!")
 end
 
 def add_element_to_start_of_array(array, element)
