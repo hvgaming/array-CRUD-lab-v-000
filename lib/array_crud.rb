@@ -12,12 +12,12 @@ def add_element_to_end_of_array(game,element)
   game.push("arrays!")
 end
 
-def add_element_to_start_of_array(array, element)
+def add_element_to_start_of_array(game, element)
   game=["wow", "I", "am", "really","arrays!"]
   game.unshift("wow")
 end
 
-def remove_element_from_end_of_array(array)
+def remove_element_from_end_of_array(game)
   game=["wow", "I", "am", "really","arrays!"]
   game.pop("arrays!")
 end
