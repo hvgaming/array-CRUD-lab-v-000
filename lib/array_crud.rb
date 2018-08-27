@@ -19,7 +19,7 @@ end
 
 def remove_element_from_end_of_array(array)
   game=["wow", "I", "am", "really","arrays!"]
-  game.pop("really")
+  game.pop()
 end
 
 def remove_element_from_start_of_array(array)
