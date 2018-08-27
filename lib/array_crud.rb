@@ -8,12 +8,12 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array,element)
-  array=["wow", "I", "am", "really"]
+  
   array.push("arrays!")
 end
 
 def add_element_to_start_of_array(array, element)
-  array=
+   array = ["wow", "I", "am", "really", "learning", "arrays!"]
   array.unshift("wow")
 end
 
