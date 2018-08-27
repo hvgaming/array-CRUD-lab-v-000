@@ -14,7 +14,7 @@ end
 
 def add_element_to_start_of_array(array, element)
   game=["wow", "I", "am", "really"]
-  game.unshift("")
+  game.unshift("wow")
 end
 
 def remove_element_from_end_of_array(array)
