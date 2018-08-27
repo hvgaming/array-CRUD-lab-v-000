@@ -7,7 +7,7 @@ def create_an_array
   
 end
 
-def add_element_to_end_of_array(game,"arrays!")
+def add_element_to_end_of_array(game,element)
   game=["wow", "I", "am", "really"]
   game.shovel("arrays!")
 end
