@@ -14,7 +14,7 @@ end
 
 def add_element_to_start_of_array(array, element)
   game=["wow", "I", "am", "really","arrays!"]
-  game.unshift("arrays!")
+  game.pop("arrays!")
 end
 
 def remove_element_from_end_of_array(array)
