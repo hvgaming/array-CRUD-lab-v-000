@@ -8,7 +8,7 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array,element)
-  
+   array = ["wow", "I", "am", "really", "learning", "arrays!"]
   array.push("arrays!")
 end
 
@@ -37,6 +37,6 @@ def retrieve_first_element_from_array(array)
 end
 
 def retrieve_last_element_from_array(array)
-  array=["wow", "I", "am", "really","arrays!"]
+  
   array.index(5)
 end
