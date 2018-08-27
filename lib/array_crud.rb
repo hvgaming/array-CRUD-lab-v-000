@@ -9,7 +9,7 @@ end
 
 def add_element_to_end_of_array(game,"arrays!")
   game=["wow", "I", "am", "really"]
-  game.unshift("arrays!")
+  game.shovel("arrays!")
 end
 
 def add_element_to_start_of_array(array, element)
