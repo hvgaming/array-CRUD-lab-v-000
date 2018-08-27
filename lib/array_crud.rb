@@ -7,7 +7,7 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, learning)
-  array=["wow", "I", "am", "really"].unshift("learning")
+  array=["wow", "I", "am", "really"].unshift()
 end
 
 def add_element_to_start_of_array(array, element)
