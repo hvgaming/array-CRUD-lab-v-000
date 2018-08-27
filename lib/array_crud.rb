@@ -13,7 +13,7 @@ def add_element_to_end_of_array(game,element)
 end
 
 def add_element_to_start_of_array(array, element)
-  game=["wow", "I", "am", "really"]
+  game=["wow", "I", "am", "really",]
   game.unshift("wow")
 end
 
